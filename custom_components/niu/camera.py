@@ -55,10 +55,6 @@ class LastTrackCamera(GenericCamera):
         super().__init__(hass, device_info, identifier, title)
 
     @property
-    def icon(self):
-        return "mdi:camera-marker"
-
-    @property
     @final
     def state(self) -> str:
         """Return the camera state."""
