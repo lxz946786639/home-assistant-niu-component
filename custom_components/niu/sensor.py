@@ -121,7 +121,7 @@ class NiuSensor(Entity):
             "identifiers": {("niu", device_name)},
             "name": device_name,
             "manufacturer": "NIU",
-            "model": "1.0.202401251631",
+            "model": "1.0.2024012501",
         }
 
     @property
