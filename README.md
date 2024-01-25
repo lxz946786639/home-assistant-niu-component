@@ -4,7 +4,7 @@
 
 Adds support for Chinese Mainland Maverick Electric; Restoration of coordinate migration in Chinese Mainland; Other optimizations, periodic updates.
 
-# Setup
+# Installation
 
 1. 打开HACS极速版，添加自定义仓库"Custom repositories"：https://gitee.com/lxz946786639/home-assistant-niu-component
 
@@ -23,8 +23,17 @@ Adds support for Chinese Mainland Maverick Electric; Restoration of coordinate m
 
 5. Enjoy
 
-<br/><br/><br/>
+# FAQ
+
+**Q. 需要在config.xml配置相关信息吗？**  
+A. 不需要
+
+
+<br/>
+
 ***
+
+<br/>
 
 # Niu E-scooter Home Assistant integration
 
