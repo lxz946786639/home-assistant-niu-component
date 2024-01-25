@@ -85,9 +85,6 @@ class NiuSensor(Entity):
         self._sensor_grp = sensor_grp  # info field for choosing the right URL
         self._icon = icon
         self._state = 0
-        self._device_name = (
-                "NIU Scooter " + sensor_prefix
-        )
 
     @property
     def unique_id(self):
@@ -115,12 +112,14 @@ class NiuSensor(Entity):
 
     @property
     def device_info(self):
-        device_name = self._device_name #"Niu E-scooter"
+        device_name = (
+                "NIU Scooter - " + self._api.sensor_prefix
+        ) # "Niu E-scooter"
         return {
             "identifiers": {("niu", device_name)},
             "name": device_name,
-            "manufacturer": "Niu",
-            "model": 1.0,
+            "manufacturer": "NIU",
+            "model": "1.0.202401251631",
         }
 
     @property

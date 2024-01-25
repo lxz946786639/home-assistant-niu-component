@@ -55,6 +55,10 @@ class LastTrackCamera(GenericCamera):
         super().__init__(hass, device_info, identifier, title)
 
     @property
+    def icon(self):
+        return "mdi:camera-marker"
+
+    @property
     @final
     def state(self) -> str:
         """Return the camera state."""
@@ -68,13 +72,13 @@ class LastTrackCamera(GenericCamera):
     @property
     def device_info(self):
         device_name = (
-                "NIU Scooter " + self._api.sensor_prefix
+                "NIU Scooter - " + self._api.sensor_prefix
         ) # "Niu E-scooter"
         dev = {
             "identifiers": {("niu", device_name)},
             "name": device_name,
-            "manufacturer": "Niu",
-            "model": 1.0,
+            "manufacturer": "NIU",
+            "model": "1.0.202401251631",
         }
         return dev
 
