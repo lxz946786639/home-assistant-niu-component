@@ -17,6 +17,10 @@ Adds support for Chinese Mainland Maverick Electric; Restoration of coordinate m
 
 3.下载
 
+![04](images/04.png)
+
+4.“设备与服务”添加集成“Niu Scooters”即可。
+
 ---
 
 # Niu E-scooter Home Assistant integration

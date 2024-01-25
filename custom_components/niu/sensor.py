@@ -172,8 +172,8 @@ class NiuSensor(Entity):
             self._state = self._api.getDataTrack(self._id_name)
 
 PI = 3.1415926535897932384626
-a = 6378245.0
 ee = 0.00669342162296594323
+a = 6378245.0
 
 def gcj02towgs84(lng, lat):
     lat = float(lat)
@@ -217,3 +217,4 @@ def transformlng(lng, lat):
     ret += (20.0 * math.sin(lng * PI) + 40.0 * math.sin(lng / 3.0 * PI)) * 2.0 / 3.0
     ret += (150.0 * math.sin(lng / 12.0 * PI) + 300.0 * math.sin(lng / 30.0 * PI)) * 2.0 / 3.0
     return ret
+
