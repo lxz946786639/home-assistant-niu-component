@@ -4,7 +4,8 @@
   "after_dependencies": ["generic"],
   "codeowners": [
     "@mwestra",
-    "@pikka97"
+    "@pikka97",
+    "@lxz946786639"
    ],
   "config_flow": true,
   "dependencies": [],
