@@ -15,6 +15,10 @@ import math
 
 _LOGGER = logging.getLogger(__name__)
 
+PI = 3.1415926535897932384626
+ee = 0.00669342162296594323
+a = 6378245.0
+
 
 async def async_setup_entry(hass, entry, async_add_entities) -> None:
     niu_auth = entry.data.get(CONF_AUTH, None)
@@ -171,10 +175,6 @@ class NiuSensor(Entity):
             await self._hass.async_add_executor_job(self._api.updateTrackInfo)
             self._state = self._api.getDataTrack(self._id_name)
 
-PI = 3.1415926535897932384626
-ee = 0.00669342162296594323
-a = 6378245.0
-
 def gcj02towgs84(lng, lat):
     lat = float(lat)
     lng = float(lng)
@@ -197,7 +197,6 @@ def gcj02towgs84(lng, lat):
 def out_of_china(lng, lat):
     lat = float(lat)
     lng = float(lng)
-    # 纬度3.86~53.55,经度73.66~135.05
     return not (lng > 73.66 and lng < 135.05 and lat > 3.86 and lat < 53.55)
 
 def transformlat(lng, lat):
