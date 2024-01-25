@@ -63,7 +63,7 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     ) -> FlowResult:
         """Invoked when a user clicks the add button"""
 
-        integration_title = "Niu EScooter Integration"
+        integration_title = "Niu Scooter Integration"
         errors = {}
 
         if user_input != None:
