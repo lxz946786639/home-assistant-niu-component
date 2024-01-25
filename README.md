@@ -1,3 +1,9 @@
+# Update 
+
+增加了对中国大陆小牛电动的支持；国内坐标偏移的处理；其它优化，不定期更新
+
+Adds support for Chinese Mainland Maverick Electric; Restoration of coordinate migration in Chinese Mainland; Other optimizations, periodic updates.
+
 # Niu E-scooter Home Assistant integration
 
 This is a custom component for Home Assistant to integrate your Niu Scooter.
