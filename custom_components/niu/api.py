@@ -139,7 +139,7 @@ class NiuApi:
             return False
         return data
 
-    def getDataBat(self, id_field): 
+    def getDataBat(self, id_field):
         return self.dataBat["data"]["batteries"]["compartmentA"][id_field]
 
     def getDataMoto(self, id_field):
@@ -163,9 +163,10 @@ class NiuApi:
             return strftime("%H:%M:%S", gmtime(self.dataTrackInfo["data"][0][id_field]))
         if id_field == "track_thumb":
             thumburl = self.dataTrackInfo["data"][0][id_field].replace(
-                "app-api.niucache.com", "app-api-fk.niu.com"
+                "app-api.niucache.com", "app-api.niu.com"
             )
-            return thumburl.replace("/track/thumb/", "/track/overseas/thumb/")
+            # return thumburl.replace("/track/thumb/", "/track/overseas/thumb/")
+            return thumburl
         return self.dataTrackInfo["data"][0][id_field]
 
     def updateBat(self):

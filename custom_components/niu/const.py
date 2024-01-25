@@ -1,6 +1,6 @@
-ACCOUNT_BASE_URL = "https://account-fk.niu.com"
+ACCOUNT_BASE_URL = "https://account.niu.com"
 LOGIN_URI = "/v3/api/oauth2/token"
-API_BASE_URL = "https://app-api-fk.niu.com"
+API_BASE_URL = "https://app-api.niu.com"
 MOTOR_BATTERY_API_URI = "/v3/motor_data/battery_info"
 MOTOR_INDEX_API_URI = "/v5/scooter/motor_data/index_info"
 MOTOINFO_LIST_API_URI = "/v5/scooter/list"
