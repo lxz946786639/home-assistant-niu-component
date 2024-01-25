@@ -112,7 +112,7 @@ class NiuSensor(Entity):
 
     @property
     def device_info(self):
-        device_name = self.sensor_prefix # "Niu E-scooter"
+        device_name = self._name #"Niu E-scooter"
         return {
             "identifiers": {("niu", device_name)},
             "name": device_name,
