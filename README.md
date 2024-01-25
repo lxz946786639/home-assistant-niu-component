@@ -6,7 +6,7 @@ Adds support for Chinese Mainland Maverick Electric; Restoration of coordinate m
 
 # Installation
 
-1. 打开HACS极速版，添加自定义仓库"Custom repositories"：https://gitee.com/lxz946786639/home-assistant-niu-component
+1. 打开HACS极速版，添加自定义仓库"Custom repositories"：https://github.com/lxz946786639/home-assistant-niu-component
 
 ![01](images/01.png)
 ![02](images/02.png)
