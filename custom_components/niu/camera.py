@@ -74,7 +74,7 @@ class LastTrackCamera(GenericCamera):
             "identifiers": {("niu", device_name)},
             "name": device_name,
             "manufacturer": "NIU",
-            "model": "1.0.2024012501",
+            "model": self._api.ver,
         }
         return dev
 

@@ -6,22 +6,25 @@ Adds support for Chinese Mainland Maverick Electric; Restoration of coordinate m
 
 # Setup
 
-1.打开HACS极速版，添加自定义仓库"Custom repositories"：https://gitee.com/lxz946786639/home-assistant-niu-component
+1. 打开HACS极速版，添加自定义仓库"Custom repositories"：https://gitee.com/lxz946786639/home-assistant-niu-component
 
 ![01](images/01.png)
 ![02](images/02.png)
 
-2.回到列表，搜索“niu”关键字，点击进去下载
+2. 回到列表，搜索“niu”关键字，点击进去下载（因为是基于大佬修改，所以stars少的那个就是）
 
 ![03](images/03.png)
 
-3.下载
+3. 下载
 
 ![04](images/04.png)
 
-4.“设备与服务”添加集成“Niu Scooters”即可。
+4. “设备与服务”添加集成“Niu Scooters”即可。
 
----
+5. Enjoy
+
+<br/><br/><br/>
+***
 
 # Niu E-scooter Home Assistant integration
 

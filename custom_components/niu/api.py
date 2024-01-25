@@ -21,6 +21,8 @@ class NiuApi:
         self.dataMotoInfo = None
         self.dataTrackInfo = None
 
+        self.ver = "1.0.2024012503"
+
     def initApi(self):
         self.token = self.get_token()
         api_uri = MOTOINFO_LIST_API_URI
